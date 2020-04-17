@@ -1,3 +1,7 @@
+//AS YOU MAY KNOW. THIS IS THE EXPORTED EMBED FILES FOR CURRENT PROJECTS. DISCORD BOT CAPABLE
+//YOU NEED TO USE bot.commands.get('projects').execute(message,args); IN ORDER TO WORK
+//COMPILE YOUR OWN FILE HANDLER. OTHERWISE THIS WILL NOT WORK
+
 const Discord = require('discord.js')
 
 module.exports={
