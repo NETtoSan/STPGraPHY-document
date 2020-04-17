@@ -21,6 +21,9 @@ bot.on('message', async message =>{
     case 'test':
        message.reply('hello!)
        break;
+    case 'hello':
+       message.reply('hello!')
+       break;
     }
     //STPGRAPHY COMMANDS GOES HERE
     if(message.content.startsWith(PREFIX+"stpgraphy"){
