@@ -10,3 +10,7 @@ THIS PROJECT OR PHOTOGRAPHY PROJECT WILL LAST 3 YEARS
 COMMIT CHANGES TO : OUR CURRENT MEMBERS. DEVELOPERS. SERVER HANDLERS
 I will not commit any changes to this STPGraphy repositories to make you or any one feel confused about repository changes
 Anyone without programming skills will have hard time to figure out what to do.
+To actually use the bot without using developers privilages
+
+_as a consumer_
+Install node.js from a website first
