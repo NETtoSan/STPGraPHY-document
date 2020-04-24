@@ -1,6 +1,8 @@
 # STPGraPHY-document
 ------------------ NETtoSan, TawanSan ------------------
+
 READ THIS DOCUMENT BEFORE DISTRUBUTE YOUR OWN DISCORD BOT
+
 This github repositories. STPGraphy-document is to store data associated with STPGraphy client or STPGraphy server itself
 Sometimes STPGraphy server pull data from this github repositories to sync-cross with internal data and external data in loop
 For 3rd party applications or Discord bot that are associated with this repositories
@@ -16,3 +18,13 @@ To actually use the bot without using developers privilages
 _as a consumer_
 
 Install node.js from a website first
+
+And download index.js and all of its important components like `commands` and `system`
+
+These folders are contained files thats coded in Javascript. So you can edit the code whenever you like
+
+Once downloaded the files. Open command prompt and type `cd C:/users/YOUR_USER_NAME/Downloads/THE_GIT_REPOSITORIES`
+
+Then type `node .` In the command prompt
+
+If you havent done anything wrong. The system should come up with `STPGRaphy bot is online!`
