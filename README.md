@@ -27,4 +27,24 @@ Once downloaded the files. Open command prompt and type `cd C:/users/YOUR_USER_N
 
 Then type `node .` In the command prompt
 
-If you havent done anything wrong. The system should come up with `STPGRaphy bot is online!`
+If you haven't done anything wrong. The system should come up with `STPGRaphy bot is online!`
+
+This will automatically connect to my client bot as if you're contributing me to support the time of bot openings.
+
+_as a developer_
+
+Install node.js from a website . And install and IDE program that supports javascript and json
+
+Download this repository
+
+Locate the repo to the IDE program
+
+Locate `index.js` . Thats the heart of this program
+
+The bot token should be `const token = 'THE_NUMBERS';`. Change it to `const token = 'YOUR_BOT_TOKEN';`
+
+After changing the bot token. Open terminal
+
+Type node . as if you're the consumer
+
+If you haven't done anything wrong. It should come up with `STPGraphy bot is online!`
