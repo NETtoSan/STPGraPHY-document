@@ -1,4 +1,5 @@
-# STPGraPHY-document
+![Logo](Core/Picture/stpgraphy_1.jpg)
+
 ------------------ NETtoSan, TawanSan ------------------
 
 READ THIS DOCUMENT BEFORE DISTRUBUTE YOUR OWN DISCORD BOT
