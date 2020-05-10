@@ -1,7 +1,7 @@
 {
  "servers": {
-     "mindustry" : "nettodustry.ddns.net:6567"
-     "plex" : "nettodustry.ddns.net:32400"
+     "mindustry" : "nettodustry.ddns.net:6567",
+     "plex" : "nettodustry.ddns.net:32400",
      "tonido" : "nettodustry.ddns.net:10001"
  }
 }
