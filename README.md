@@ -1,4 +1,4 @@
-![Logo](Core/Picture/stpgraphy_1.jpg)
+![Logo](Core/Picture/banner.jpg)
 
 ### Please read this readme and follow these instructions before going down to issues and post
 
