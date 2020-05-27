@@ -1,0 +1,101 @@
+<%- include('blocks/header', {bot, user, path}) %>
+<div class ="jumbotron">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <style>
+            .dropdown-submenu {
+              position: relative;
+            }
+            
+            .dropdown-submenu .dropdown-menu {
+              top: 30;
+              left: 0%;
+              margin-top: -1px;
+            }
+            </style>
+    </head>
+
+<body>
+    <h1><i class="fas fa-server" aria-hidden="true"></i> Datacenter</h1>
+
+    <div class="wrapper">
+        <input type="text" class="input" placeholder="Search the disks"
+        >
+        <div class ="saerchbtn">
+
+        </div>
+    </div>
+
+    <div class ="dropdown">
+        <a class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class= "fas fa-server" aria-hidden="true"></i> disk1</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class ="col-5 text-nowrap"><i class ="fa fa-fw fa-server" aria-hidden="true"></i>Files</div>
+            <div class ="col-5 text-wrap"><strong> Main > <%= file.folders %></strong></div>
+        </div>
+    </div>
+
+    <div class ="dropdown">
+        <a class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class= "fas fa-server" aria-hidden="true"></i> Online Sources</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class ="col-5 text-nowrap"><i class ="fa fa-fw fa-server" aria-hidden="true"></i>Files</div>
+            <div class="dropdown-submenu">
+                <a class="test" href="#">SYNC2019 <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">BNK48</a></li>
+                  <li><a href="#">ROY KRATONG</a></li>
+                </ul>
+            </div>
+            <div class="dropdown-submenu">
+                <a class="test" href="#">SYNC2020 <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">3rd level dropdown</a></li>
+                  <li><a href="#">3rd level dropdown</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="dropdown">
+        <a class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">Tutorials
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a tabindex="-1" href="#">HTML</a></li>
+          <li><a tabindex="-1" href="#">CSS</a></li>
+          <li class="dropdown-submenu">
+            <a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu" style="display: block;">
+              <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+              <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+              <li class="dropdown-submenu">
+                <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">3rd level dropdown</a></li>
+                  <li><a href="#">3rd level dropdown</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+    </div>
+
+      <script>
+        $(document).ready(function(){
+          $('.dropdown-submenu a.test').on("click", function(e){
+            $(this).next('ul').toggle();
+            e.stopPropagation();
+            e.preventDefault();
+          });
+        });
+      </script>
+
+</body>
+
+
+
+
+
+</div>
+<% include ./blocks/footer %>

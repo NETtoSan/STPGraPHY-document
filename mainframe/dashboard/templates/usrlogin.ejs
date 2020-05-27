@@ -1,0 +1,17 @@
+<%- include('blocks/header', {bot, user, path}) %>
+<div class = "jumbotron">
+    <h1>Login</h1>
+    <form method ="POST" action ="/netlogin">
+        <div class="form-group">
+            <label for="Username">Username</label>
+            <input type="text" name="username" class ="form-control" placeholder="Username">
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="text" name="password" class ="form-control" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+        <a class="btn btn-primary" href="/login" class ="nav-link">Discord login</a>
+    </form>
+</div>
+<% include ./blocks/footer %>
